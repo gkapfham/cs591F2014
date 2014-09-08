@@ -1,0 +1,50 @@
+\input{hwpre.tex}
+
+\usepackage[compact]{titlesec}
+
+\begin{document}
+\MYTITLE{Homework Assignment Two: Using Conditional Logic in Automation Tasks}
+\MYHEADERS{Homework Assignment Two}{Due: September 19 and 20, 2013}
+
+\section*{Introduction}
+
+Tasker is described as a ``total automation system for Android'' and is often one of the reasons why people purchase
+Android-based tablets and mobile phones.  You can learn more about Tasker by visiting
+\url{http://tasker.dinglisch.net/}. As you will see, the creator of Tasker described it as ``an application for Android
+which performs Tasks (sets of Actions) based on Contexts (application, time, date, location, event, gesture) in
+user-defined Profiles, or in clickable or timer [sic] home screen widgets.''  What are some ways in which you could use
+Tasker to automate the use of your tablet?
+
+\section*{Creating Notifications in Tasker}
+
+Take some time to explore the ``Profiles'', ``Tasks'', ``Scenes'', and ``Vars'' tabs at the top of the screen in Tasker.
+Using Tasker's in-application help system and any online resources that you find, write one or two sentences about the
+meaning and purpose of each tab. Now, go to the ``Tasks'' tab and use the plus sign in the bottom-right corner to create
+a new task called ``Display Notification''.  Next, find the Notify action and customize it so that it will display a
+message.  Once you have completed this step, you can click the arrow in the bottom-left corner to run your task. You can
+further tailor your notification task by changing the displayed message and/or the icon. 
+
+\section*{Using Conditional Logic in Tasker}
+
+Instead of having to load Tasker and click the run button every time you wanted to run your task, it would be better to
+ensure that it automatically runs when a specified condition is true. To this end, please switch to the ``Profiles'' tab
+and click the plus sign to create a new profile.  Next, pick a category from the pop-up menu that will describe the
+context for your new profile.  For instance, you could specify that it is a certain time of the day or that the display
+unlocked event just took place. Finally, you should add the ``Display Notification'' task to this profile.  Do you now
+see a green arrow indicating that ``Display Notification'' will run when your specified context is true?  Please see the
+instructor if you are not able to complete these steps.
+
+Now that you have finished programming your first automation task, you should test it to ensure that it works correctly.
+For instance, if you indicated that ``Display Notification'' should run when the screen is unlocked, then lock and
+unlock the screen and see if the notification appears.  Once you have finished experimenting with your first task, you
+should implement at least two others, for a total of three automation tasks. Each of the tasks that you implement should
+display a notification when the specified condition(s) are true.  Students are encouraged to develop profile contexts that
+contain multiple conditions that are joined by a plus sign representing the logical and operator. 
+
+% \section*{Summary of the Required Deliverables}
+
+To complete the assignment, you should turn in signed printouts of the: (i) list of at least six automation tasks
+that you could implement in Tasker, (ii) description of the four tabs in Tasker's main screen, and (iii) screen shots
+and descriptions of the behavior of three automation tasks.
+
+\end{document}
